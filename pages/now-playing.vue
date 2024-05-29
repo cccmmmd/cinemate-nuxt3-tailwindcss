@@ -23,7 +23,7 @@
 
 <script setup>
     const movies = useState(()=> [])
-    const {data} = await useFetch('/api/movies/popular',{
+    const {data} = await useFetch('/api/movies/nowplaying',{
     transform: data =>{
         movies.value = data.nowplaying.results
     }

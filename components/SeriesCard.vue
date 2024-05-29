@@ -34,7 +34,7 @@
 
     const itemState = useState('chosenItem', () => {})
     const changeItemState = (item) => {
-        itemState.vaule = item
+        itemState.value = item
     }
 </script>
 

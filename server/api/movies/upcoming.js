@@ -1,16 +1,15 @@
 export default defineEventHandler(async event => {
     const config = useRuntimeConfig(event)
     const {AccessToken} = config
-    const nowPlayUrl = 'https://api.themoviedb.org/3/movie/now_playing'
+    const upcomingMoviesUrl = 'https://api.themoviedb.org/3/movie/upcoming'
     
 
-    const nowplaying = await $fetch(nowPlayUrl, {
+    const upcomingMovies = await $fetch(upcomingMoviesUrl, {
         method: 'get',
         headers: {
             accept: 'application/json',
             Authorization: `Bearer ${AccessToken}`
         }
     })
-
-    return {nowplaying}
+    return {upcomingMovies}
 })
