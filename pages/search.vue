@@ -38,7 +38,7 @@
                     <SeriesCard
                         :name = "ser.name"
                         :overview = "ser.overview"
-                        :first-air-date = "ser.first-air-date"
+                        :first_air_date = "ser.first_air_date"
                         :popularity = "ser.popularity"
                         :poster_path = "ser.poster_path"
                         :item = "ser"
