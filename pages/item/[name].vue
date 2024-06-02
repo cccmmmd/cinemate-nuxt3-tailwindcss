@@ -20,7 +20,7 @@
     </div>
     <div v-else-if="item.first_air_date">
         <div class="w-full flex flex-row bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-            <div class="flex justify-center">
+            <div class="flex min-w-fit">
                 <img :src="`${imageSiteUrl}${item.poster_path}`" alt="Movie Image" />
             </div>
             <div class="p-5">
