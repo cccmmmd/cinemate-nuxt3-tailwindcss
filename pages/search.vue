@@ -13,7 +13,7 @@
         </div>
         <section v-if="movies.length">
             <h1 class="text-5xl font-extrabold dark:text-white my-5">
-                Movies Results
+                電影搜尋結果
             </h1>
             <ul class="grid grid-cols-5 gap-3">
                 <li v-for="mov in movies">
@@ -29,9 +29,9 @@
                 <br/><br/>
             </ul>
         </section>
-        <section v-if="series.length">~
+        <section v-if="series.length">
             <h1 class="text-5xl font-extrabold dark:text-white mb-5">
-                TV Series Results
+                影集搜尋結果
             </h1>
             <ul class="grid grid-cols-5 gap-3">
                 <li v-for="ser in series">
