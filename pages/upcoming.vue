@@ -2,7 +2,7 @@
     <div>
         <section>
             <h1 class="text-5xl font-extrabold dark:text-white mb-5">
-                Upcoming Movies
+                即將上映電影
             </h1>
             <ul class="grid grid-cols-5 gap-3">
                 <li v-for="mov in movies">
