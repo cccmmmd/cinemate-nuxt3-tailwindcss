@@ -2,7 +2,7 @@
     <div>
         <section>
             <h1 class="text-5xl font-extrabold dark:text-white mb-5">
-                Top Rated Movies
+                歷年最高好評電影
             </h1>
             <ul class="grid grid-cols-5 gap-3">
                 <li v-for="mov in movies">
@@ -20,7 +20,7 @@
         </section>
         <section>
             <h1 class="text-5xl font-extrabold dark:text-white mb-5">
-                Top Rated TV Series
+                歷年最高好評影集
             </h1>
             <ul class="grid grid-cols-5 gap-3">
                 <li v-for="ser in series">

@@ -18,23 +18,23 @@
                     <NuxtLink to="/" class="block py-2 px-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent" :class="{ 'text-blue-600': $route.path === '/' }" >Home</NuxtLink>
                     </li>
                     <li>
-                    <NuxtLink to="/search" class="block py-2 px-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent" :class="{ 'text-blue-600': $route.path === '/search' }">Search</NuxtLink>
+                    <NuxtLink to="/search" class="block py-2 px-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent" :class="{ 'text-blue-600': $route.path === '/search' }">搜尋電影影集</NuxtLink>
                     </li>
                     <li>
-                    <NuxtLink to="/popular" class="block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent" :class="{ 'text-blue-600': $route.path === '/popular' }">Popular</NuxtLink>
+                    <NuxtLink to="/popular" class="block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent" :class="{ 'text-blue-600': $route.path === '/popular' }">熱門電影影集</NuxtLink>
                     </li>
                     <li>
                     <NuxtLink to="/now-playing" class="block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                    :class="{ 'text-blue-600': $route.path === '/now-playing' }">Now Playing</NuxtLink>
+                    :class="{ 'text-blue-600': $route.path === '/now-playing' }">現正熱映</NuxtLink>
                     </li>
                     <li>
                     <NuxtLink to="/top-rated" class="block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                    :class="{ 'text-blue-600': $route.path === '/top-rated' }">Top Rated</NuxtLink>
+                    :class="{ 'text-blue-600': $route.path === '/top-rated' }">歷年最高好評</NuxtLink>
                     </li>
                     <li>
                     <NuxtLink to="/upcoming" 
                     class="block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                    :class="{ 'text-blue-600': $route.path === '/upcoming' }">Upcoming</NuxtLink>
+                    :class="{ 'text-blue-600': $route.path === '/upcoming' }">即將上映</NuxtLink>
                     </li>
                 </ul>
                 </div>
